@@ -1,0 +1,38 @@
+{
+    "name": "@chisel-ui/css-reset",
+    "version": "0.0.1",
+    "description": "chisel-ui CSS reset",
+    "private": false,
+    "type": "module",
+    "exports": {
+        ".": "./dist/reset.css"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsup src --clean",
+        "watch": "npm run build -- --watch src",
+        "prepublishOnly": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chisel-ui/css-reset.git"
+    },
+    "keywords": [
+        "astro",
+        "css-reset",
+        "layout"
+    ],
+    "author": "tony-sull <tony.f.sullivan@outlook.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/chisel-ui/css-reset/issues"
+    },
+    "homepage": "https://github.com/chisel-ui/css-reset#readme",
+    "devDependencies": {
+        "autoprefixer": "^10.4.2",
+        "postcss": "^8.4.8",
+        "tsup": "^5.12.1"
+    }
+}
