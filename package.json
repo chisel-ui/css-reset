@@ -1,6 +1,6 @@
 {
     "name": "@chisel-ui/css-reset",
-    "version": "0.0.1",
+    "version": "0.2.0",
     "description": "chisel-ui CSS reset",
     "private": false,
     "type": "module",
